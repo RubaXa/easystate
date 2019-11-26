@@ -9,7 +9,7 @@
     "ts-build": "tsc",
     "ts-build-clean": "rimraf ./src/**/*.{d.ts,js,js.map}",
     "prepublishOnly": "npm test && npm run ts-build",
-    "postpublish": "ts-build-clean"
+    "postpublish": "npm run ts-build-clean"
   },
   "peerDependencies": {
     "@types/react": ">=16.8.0",
