@@ -1,4 +1,4 @@
-import { isPlainObject } from './util';
+import { isPlainObject } from '../util';
 
 const REV_SYMBOL = Symbol(`__easystate:rev__`);
 const RAW_SYMBOL = Symbol(`__easystate:raw__`);
