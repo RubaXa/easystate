@@ -1,6 +1,6 @@
 {
-  "name": "easystate",
-  "version": "0.1.1",
+  "name": "@artifact-project/easystate",
+  "version": "0.1.0",
   "author": "RubaXa <trash@rubaxa.org>",
   "description": "EasyState for your application",
   "scripts": {
