@@ -1,0 +1,48 @@
+{
+  "name": "easystate",
+  "version": "0.1.0",
+  "author": "RubaXa <trash@rubaxa.org>",
+  "description": "EasyState for your application",
+  "scripts": {
+    "test": "jest",
+    "start": "npm test",
+    "ts-build": "tsc",
+    "ts-build-clean": "rimraf ./src/**/*.{d.ts,js,js.map}",
+    "prepublishOnly": "npm test"
+  },
+  "peerDependencies": {
+    "@types/react": ">=16.8.0",
+    "@types/react-dom": ">=16.8.0",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.8",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "jest": "^24.9.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "rimraf": "3.0.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "\\.tests\\.tsx?$",
+    "transformIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "setupFiles": [],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ]
+  }
+}
